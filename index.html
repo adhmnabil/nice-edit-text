@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Editor</title>
+    <link
+      rel="stylesheet"
+      href="fontawesome-free-6.0.0-beta3-web/css/all.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="options">
+        <nav>
+          <div class="bold selectAll" id="bold">
+            <i class="fas fa-bold"></i>
+          </div>
+          <div class="italic selectAll" id="italic">
+            <i class="fas fa-italic"></i>
+          </div>
+          <div class="underline selectAll" id="underline">
+            <i class="fas fa-underline"></i>
+          </div>
+          <div class="left selectAll" id="left">
+            <i class="fas fa-align-left"></i>
+          </div>
+          <div class="center selectAll" id="center">
+            <i class="fas fa-align-center"></i>
+          </div>
+          <div class="right selectAll" id="right">
+            <i class="fas fa-align-right"></i>
+          </div>
+          <div class="font">
+            <label>font size:</label>
+            <input type="text" id="size" class="width" />
+            <input type="color" id="color" />
+            <input type="color" id="changBk" />
+          </div>
+        </nav>
+        <textarea name="notes" id="notes" class=""> </textarea>
+      </div>
+    </header>
+    <script
+      src="https://kit.fontawesome.com/ffcf8b7784.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
